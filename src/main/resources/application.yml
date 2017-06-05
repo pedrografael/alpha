@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: alpha
+
+  datasource:
+    url: jdbc:postgresql://104.197.90.65:5432/admin
+    username: admin
+    password: admin
+    platform: POSTGRESQL
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties.jadira.usertype.autoRegisterUserTypes: true
